@@ -1,0 +1,17 @@
+.jumbotron {
+  margin-top: 10px;
+  border: rgb(175, 179, 102) outset 4px;
+}
+#introduction {
+  padding: 20px;
+}
+#greetings {
+  font-size: 20;
+  font-weight: 700;
+}
+form {
+  background-color: rgb(248, 83, 0);
+  padding: 18px;
+  border-radius: 12px;
+  border: rgb(175, 179, 102) outset 4px;
+}
