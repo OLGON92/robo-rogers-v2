@@ -1,7 +1,18 @@
+body {
+  background-color: rgb(9, 127, 174);
+}
+.container{
+  max-width: 900px;
+  margin: auto, 0px;
+}
 .jumbotron {
   margin-top: 10px;
   border: rgb(175, 179, 102) outset 4px;
 }
+.hidden {
+  display: none;
+}
+
 #introduction {
   padding: 20px;
 }
@@ -14,4 +25,11 @@ form {
   padding: 18px;
   border-radius: 12px;
   border: rgb(175, 179, 102) outset 4px;
+}
+.btn {
+  background-color: rgb(219, 224, 68);
+}
+#output-div {
+  text-align: center;
+  margin: 10px;
 }
