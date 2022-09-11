@@ -15,4 +15,9 @@ function roboResponse(numberArray) {
       newArray.push("Won't you be my neighbor?");
     } else if(element.includes("2")) {
       newArray.push("Boop!");
-    } 
+    } else {
+      newArray.push(element);
+    }
+  });
+  return newArray.join(", ");
+};
