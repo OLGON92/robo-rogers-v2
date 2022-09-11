@@ -9,10 +9,6 @@ body {
   margin-top: 10px;
   border: rgb(175, 179, 102) outset 4px;
 }
-.hidden {
-  display: none;
-}
-
 #introduction {
   padding: 20px;
 }
@@ -32,4 +28,7 @@ form {
 #output-div {
   text-align: center;
   margin: 10px;
+}
+.hidden {
+  display: none;
 }
