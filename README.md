@@ -25,7 +25,7 @@ _This is my third project for Epicodus that is meant to show off my ability to u
 
 ## Known Bugs
 
-* _UI Logic still is not finished. Will not show results._ 
+* _No known bugs_ 
 
 ## License
 

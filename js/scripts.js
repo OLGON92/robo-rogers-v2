@@ -26,22 +26,17 @@ function roboResponse(numberArray) {
 };
 
 
-//User Logic
-window.addEventListener("load", function() {
-	document.querySelector("form#input-form").addEventListener("submit", roboResponse);
-  output-div.setAttribute("class", "hidden")
-  
-  
-  event.preventDefault();
-});
-/*$(document).ready(function() {
-  $("#input-form").submit(function(event) {
-    const userNumber = $("#input-number").val();
-    $(".hidden").hide();
-    $("#output-span").text(roboResponse(createArray(userNumber)));
-    $("#output-span").fadeIn()
 
-    window.scrollTo(0,document.body.scrollHeight);
-    event.preventDefault();
-  });
-})*/
+//User Logic
+
+function handleFormSubmission(event) {
+  event.preventDefault();
+  const userNumber = document.getElementById("input-number").value;
+  const newArray = roboResponse(createArray(userNumber));
+  const outputDiv = document.getElementById("output");
+  outputDiv.innerText = newArray;
+  outputDiv.removeAttribute("class");
+}
+window.addEventListener("load", function() {
+	document.querySelector("form#input-form").addEventListener("submit", handleFormSubmission);
+});
